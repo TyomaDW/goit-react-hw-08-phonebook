@@ -66,7 +66,7 @@ export default function App() {
                   </PrivateRoute>
                 }
               />
-              <Route path="*" element={<Navigate to="/" />} />
+              <Route path="*" element={<Navigate to="login" />} />
             </Routes>
           </Suspense>
         </>
