@@ -66,6 +66,7 @@ export default function ContactForm() {
       <TextField
         margin="none"
         fullWidth
+        required
         label="Name"
         variant="outlined"
         type="text"
@@ -78,6 +79,7 @@ export default function ContactForm() {
       <TextField
         margin="normal"
         fullWidth
+        required
         label="Number"
         variant="outlined"
         type="tel"
